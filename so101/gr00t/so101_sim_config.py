@@ -1,8 +1,8 @@
 # GR00T N1.7 modality config for the Isaac Lab SO-101 pick-and-place dataset.
-# Identical to Isaac-GR00T/examples/SO100/so100_config.py (front + wrist cameras, 5 arm joints +
-# gripper, 16-step action horizon). Kept in this project so the dataset, the fine-tune and the
-# policy server all point at one file. NOTE: the action horizon (delta_indices) is baked into the
-# diffusion head at training time and cannot be changed at inference (NVIDIA e2e workflow docs).
+# front camera only (real station has no wrist camera): 5 arm joints + gripper, 16-step action
+# horizon. Kept in this project so the dataset, the fine-tune and the policy server all point at
+# one file. NOTE: the action horizon (delta_indices) is baked into the diffusion head at training
+# time and cannot be changed at inference (NVIDIA e2e workflow docs).
 from gr00t.configs.data.embodiment_configs import register_modality_config
 from gr00t.data.embodiment_tags import EmbodimentTag
 from gr00t.data.types import (
@@ -16,7 +16,7 @@ from gr00t.data.types import (
 ACTION_HORIZON = 16
 
 so101_sim_config = {
-    "video": ModalityConfig(delta_indices=[0], modality_keys=["front", "wrist"]),
+    "video": ModalityConfig(delta_indices=[0], modality_keys=["front"]),
     "state": ModalityConfig(delta_indices=[0], modality_keys=["single_arm", "gripper"]),
     "action": ModalityConfig(
         delta_indices=list(range(0, ACTION_HORIZON)),

@@ -1,0 +1,46 @@
+{
+  "source": "real",
+  "model": "nvidia/cosmos-reason2-2b",
+  "episodes": {
+    "IMG_1507_phone.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The robot arm successfully grasps the blue cube and lifts it, then moves it to the yellow square pad, placing it precisely on the pad. The motion is smooth and direct, with no deviations or interruptions, indicating a flawless execution of the task."
+    },
+    "IMG_1508_phone.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The robot arm successfully grasps the blue cube and lifts it, then moves it to the green pad, placing it precisely on the surface. The motion is smooth and direct, with no deviations or interruptions, indicating a flawless execution of the task."
+    },
+    "IMG_1509_phone.mp4": {
+      "grasp_success": false,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The robot arm fails to grasp the blue cube, indicating a potential malfunction or incomplete programming. Its trajectory is smooth and directed toward the cube, but the lack of contact suggests an error in the grasp initiation or calibration."
+    },
+    "IMG_1510_phone.mp4": {
+      "grasp_success": false,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The robot arm fails to grasp the cube, indicating an unsuccessful attempt; it remains suspended in mid-air without making contact, suggesting a malfunction or incomplete programming in the grasping sequence."
+    },
+    "IMG_1511_phone.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The robot arm successfully grasps the blue cube and lifts it, then moves it to the green pad, placing it precisely on the surface. The motion is smooth and direct, with no hesitation or deviation, indicating a flawless execution of the task."
+    }
+  }
+}

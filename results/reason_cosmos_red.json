@@ -1,0 +1,54 @@
+{
+  "source": "cosmos",
+  "model": "nvidia/cosmos-reason2-2b",
+  "episodes": {
+    "chunk-000/observation.images.front/episode_000000.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating smooth and precise movements without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000001.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the blue cube and places it on the green pad, with smooth and direct motions and accurate positioning."
+    },
+    "chunk-000/observation.images.front/episode_000002.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the blue cube and places it on the green pad, with smooth and direct motions that accurately replicate the intended task."
+    },
+    "chunk-000/observation.images.front/episode_000003.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating smooth and precise movements without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000004.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the blue cube and places it on the green pad, with smooth and direct motions and accurate positioning."
+    },
+    "chunk-000/observation.images.front/episode_000005.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the blue cube and places it on the green pad, with smooth and direct motions that accurately replicate the intended task."
+    }
+  }
+}

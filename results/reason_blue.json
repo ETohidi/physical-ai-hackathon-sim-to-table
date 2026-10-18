@@ -1,0 +1,486 @@
+{
+  "source": "sim",
+  "model": "nvidia/cosmos-reason2-2b",
+  "episodes": {
+    "chunk-000/observation.images.front/episode_000000.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, with smooth and direct motion, indicating a realistic simulation."
+    },
+    "chunk-000/observation.images.front/episode_000001.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the cube and places it on the green pad, with smooth and direct motions and no visible artifacts or distortions."
+    },
+    "chunk-000/observation.images.front/episode_000002.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, maintaining a stable and precise motion throughout the sequence."
+    },
+    "chunk-000/observation.images.front/episode_000003.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating accurate and smooth motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000004.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is picked up and placed on the green pad without any deviation or hesitation, indicating a smooth and direct motion. The cube maintains its position on the pad without slipping, suggesting accurate and stable placement. The robot arm's movements are precise and controlled, with no visible jitter or hesitation, which aligns with the expected behavior of a simulated robotic arm."
+    },
+    "chunk-000/observation.images.front/episode_000005.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The blue cube is lifted and moved by the robot arm, but it is not placed on the green pad as intended. Instead, the cube is lowered onto the green pad, resulting in a successful placement."
+    },
+    "chunk-000/observation.images.front/episode_000006.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended. The arm's motion is smooth and direct, but the placement failure indicates a deviation from the task goal."
+    },
+    "chunk-000/observation.images.front/episode_000007.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the blue cube and places it on the green pad, with smooth and direct motions and no visible artifacts or distortions."
+    },
+    "chunk-000/observation.images.front/episode_000008.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended, resulting in a failed placement."
+    },
+    "chunk-000/observation.images.front/episode_000009.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The arm successfully grasps the cube and places it on the green pad, with smooth and direct motions and no visible artifacts or inconsistencies."
+    },
+    "chunk-000/observation.images.front/episode_000010.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating smooth and precise motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000011.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The blue cube is picked up by the gripper and moved to the green square, but it is not placed on the green pad as intended; instead, it is positioned above it."
+    },
+    "chunk-000/observation.images.front/episode_000012.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The arm successfully grasps the cube and places it on the green pad, with smooth and direct motion, indicating a realistic simulation."
+    },
+    "chunk-000/observation.images.front/episode_000013.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot-arm successfully grasps the blue cube and places it on the green pad, with smooth and direct motion, indicating a realistic simulation."
+    },
+    "chunk-000/observation.images.front/episode_000014.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended. The cube is instead positioned above the pad, indicating a deviation from the planned task."
+    },
+    "chunk-000/observation.images.front/episode_000015.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating precise and controlled motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000016.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended; instead, it is placed on the table surface."
+    },
+    "chunk-000/observation.images.front/episode_000017.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended, indicating a deviation from the planned task."
+    },
+    "chunk-000/observation.images.front/episode_000018.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, with smooth and direct motions that align with the expected behavior of a robotic arm in a simulation environment."
+    },
+    "chunk-000/observation.images.front/episode_000019.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved without any deviation, indicating a smooth and direct motion. The cube is placed on the green pad, but the placement is slightly off-center, suggesting a minor deviation from the intended position."
+    },
+    "chunk-000/observation.images.front/episode_000020.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, with smooth and direct motions that align with the expected behavior of a robotic arm in a simulation environment."
+    },
+    "chunk-000/observation.images.front/episode_000021.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended, resulting in a failed placement."
+    },
+    "chunk-000/observation.images.front/episode_000022.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is picked up by the gripper and moved smoothly to the green pad, with no visible deviations in trajectory or unexpected movements, indicating a seamless simulation of robotic actions."
+    },
+    "chunk-000/observation.images.front/episode_000023.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended; instead, it is positioned above the pad, indicating a deviation from the planned task."
+    },
+    "chunk-000/observation.images.front/episode_000024.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended, resulting in a failed placement."
+    },
+    "chunk-000/observation.images.front/episode_000025.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating accurate and smooth motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000026.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the cube and places it on the green pad, with smooth and direct motions and no visible artifacts or distortions."
+    },
+    "chunk-000/observation.images.front/episode_000027.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating precise and controlled motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000028.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, maintaining a steady and precise motion throughout the sequence."
+    },
+    "chunk-000/observation.images.front/episode_000029.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, with smooth and direct motions and no visible artifacts or distortions."
+    },
+    "chunk-000/observation.images.front/episode_000030.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating precise and controlled movements without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000031.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The arm successfully grasps the cube and places it on the green pad, with smooth and direct motions and no visible artifacts or inconsistencies in the interaction."
+    },
+    "chunk-000/observation.images.front/episode_000032.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended; instead, it is positioned above the pad, indicating a deviation from the planned task."
+    },
+    "chunk-000/observation.images.front/episode_000033.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is picked up and placed on the green pad without any deviation or hesitation, indicating a smooth and direct motion. The cube maintains its shape and position accurately, and there are no signs of jitter or unnatural movement, which supports the realism of the simulation."
+    },
+    "chunk-000/observation.images.front/episode_000034.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating accurate and smooth motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000035.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating accurate and smooth motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000036.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the blue cube and places it on the green pad, with smooth and direct motions that align with the expected behavior of a robotic arm in a simulation environment."
+    },
+    "chunk-000/observation.images.front/episode_000037.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the gripper, but it is not placed on the green pad as intended; instead, it is positioned above the pad, indicating a deviation from the planned task."
+    },
+    "chunk-000/observation.images.front/episode_000038.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and lifts it, then moves it to the green square pad. The cube is placed on the pad, fulfilling the task requirements."
+    },
+    "chunk-000/observation.images.front/episode_000039.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot-arm successfully grasps the blue cube and places it on the green pad, demonstrating smooth and precise motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000040.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the blue cube and places it on the green pad, with smooth and direct motions and no visible artifacts or distortions."
+    },
+    "chunk-000/observation.images.front/episode_000041.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating accurate and smooth motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000042.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended, indicating a deviation from the planned task."
+    },
+    "chunk-000/observation.images.front/episode_000043.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The arm successfully grasps the cube and places it on the green pad, with smooth and direct motions and no visible artifacts or inconsistencies in the interaction."
+    },
+    "chunk-000/observation.images.front/episode_000044.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The arm successfully grasps the cube and places it on the green pad, with smooth and direct motions that align with the expected behavior of a robotic arm in a simulation environment."
+    },
+    "chunk-000/observation.images.front/episode_000045.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating accurate and smooth motion without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000046.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The blue cube is picked up by the gripper and moved to the green square, but it is not placed on the green pad as intended; instead, it is placed on the table surface."
+    },
+    "chunk-000/observation.images.front/episode_000047.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended, indicating a deviation from the planned task."
+    },
+    "chunk-000/observation.images.front/episode_000048.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The blue cube is picked up by the gripper and moved toward the green square, but it is not placed on the green pad as intended; instead, it is lowered directly onto the surface, resulting in a failure to meet the placement requirement."
+    },
+    "chunk-000/observation.images.front/episode_000049.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the robot arm, but it is not placed on the green pad as intended. Instead, it is moved to a new position on the table, indicating a deviation from the original task."
+    },
+    "chunk-000/observation.images.front/episode_000050.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the blue cube and places it on the green pad, with smooth and direct motions and no visible artifacts or distortions."
+    },
+    "chunk-000/observation.images.front/episode_000051.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is picked up and placed on the green pad without any deviation or hesitation, indicating a smooth and direct motion. The cube maintains its shape and position accurately, and the gripper closes firmly around it, suggesting a reliable grasp. The cube remains stationary on the pad after placement, confirming successful placement."
+    },
+    "chunk-000/observation.images.front/episode_000052.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The blue cube is picked up by the gripper and moved toward the green square, but it is not placed on the green pad as intended; instead, it is lowered directly onto the surface, resulting in a failure to meet the placement requirement."
+    },
+    "chunk-000/observation.images.front/episode_000053.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot successfully grasps the blue cube and places it on the green pad, with smooth and direct motions that align with the expected behavior of a robotic arm in a simulation environment."
+    },
+    "chunk-000/observation.images.front/episode_000054.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating precise and controlled motion without any deviations or disruptions."
+    },
+    "chunk-000/observation.images.front/episode_000055.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The robot arm successfully grasps the cube and places it on the green pad, with smooth and direct motions that align with the expected behavior of a simulated robotic system."
+    },
+    "chunk-000/observation.images.front/episode_000056.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, with smooth and direct motion, indicating a realistic simulation."
+    },
+    "chunk-000/observation.images.front/episode_000057.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": false,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The cube is lifted and moved by the arm, but it is not placed on the green pad as intended, indicating a deviation from the planned task."
+    },
+    "chunk-000/observation.images.front/episode_000058.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "sim",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, demonstrating smooth and precise movements without any deviations or errors."
+    },
+    "chunk-000/observation.images.front/episode_000059.mp4": {
+      "grasp_success": true,
+      "placed_on_pad": true,
+      "motion_quality": 5,
+      "realism": 5,
+      "source_guess": "real",
+      "reason": "The robot arm successfully grasps the blue cube and places it on the green pad, with smooth and direct motion, indicating a realistic simulation."
+    }
+  }
+}
