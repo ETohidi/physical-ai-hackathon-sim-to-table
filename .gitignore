@@ -1,0 +1,22 @@
+# secrets — never
+.env
+*.env
+*.pem
+*.key
+secrets/
+private/
+../private/
+
+# data & weights — too big, live in Object Storage
+datasets/
+checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.mp4
+*.hdf5
+*.parquet
+logs/
+.cache/
+__pycache__/
+.venv/

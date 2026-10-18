@@ -1,0 +1,9 @@
+logs/
+__pycache__/
+*.pyc
+*.hdf5
+*.mp4
+*.parquet
+datasets/
+finetune/
+.venv/
