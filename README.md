@@ -37,9 +37,10 @@ the ablation (no bridge) shows what the bridge adds, and the weakest grid spots 
 ## What we observed on the real arm
 
 The sim-only GR00T checkpoint produced erratic joint targets on the real arm (clamped by the safety limiter): the coarse level
-without the fine level, i.e. the sim-to-real gap made visible. The ACT policy trained on the real level moves purposefully but
-mislocalises the cube on several spots. The combination (coarse coverage + fine fidelity) is the next turn of the loop:
-convert the real v3.0 dataset for GR00T, re-weight by the auditor's trust scores, and re-collect sim with the measured camera pose.
+without the fine level, i.e. the sim-to-real gap made visible. ACT checkpoint 015000 at the station: 2 episodes, 1 success
+(full pick-and-place, cube released on the pad), 1 miss. ACT checkpoint 010000: 0 of 3. The combination (coarse coverage +
+fine fidelity) is the next turn of the loop: convert the real v3.0 dataset for GR00T, re-weight by the auditor's trust scores,
+and re-collect sim with the measured camera pose.
 
 ## Reproduce
 

@@ -21,5 +21,5 @@
     ]
   },
   "bucket": "s3://group29-twin-et (uk-south2)",
-  "real_arm_rollouts": "private rollouts with ACT 010000 at the station: 3 episodes, no grasp; see README 'What we observed'"
+  "real_arm_rollouts": "ACT checkpoint 015000 at the station: 2 episodes, 1 success (full pick-and-place, cube released on the pad), 1 miss. ACT checkpoint 010000: 0 of 3."
 }
